@@ -1,0 +1,1262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01A329612059542AA466A26BF9E3967A /* PYKNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81EF02191396CCC8B9EFCDE34DAFC93C /* PYKNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0598F3FA757549CA9B4FDF5EE57B5E79 /* PYKLogining-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 324DC8786F48C2638E1FB4B34EAD2016 /* PYKLogining-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F6AE1AD34F6603105674F35E28C05C0 /* PYKLogining-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9845DECFEBAE95716EE3F12D8FBD96C /* PYKLogining-dummy.m */; };
+		1058428D7148DABDF4A79CB206A35D68 /* YKLogining.m in Sources */ = {isa = PBXBuildFile; fileRef = A34C472B562C10AE097500211D1A71F9 /* YKLogining.m */; };
+		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
+		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
+		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E507B122526E0EA37C08FC58F126906C /* QuartzCore.framework */; };
+		1FD8821B4FD4F174074305FB765C7CF7 /* Pods-PYKLogining_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C95359591A30147D164631B2C36E8A0 /* Pods-PYKLogining_Example-dummy.m */; };
+		279BCD4F7B01AB869B281A5369012120 /* PYKNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0041FE44BDA4A96C14073449DA2B3385 /* PYKNetworking-dummy.m */; };
+		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
+		3FDA29ADEDF2AB92379357D82AB41270 /* PYKNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8480770C3ED00E3ABD33E0090969FC26 /* PYKNetworking.framework */; };
+		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		58AC3A14CACAC7AC0EB3203C9A9B06ED /* Pods-PYKLogining_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5213B6EC2F94A651EF12AFE35358BDC7 /* Pods-PYKLogining_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255B27CBF39135B6186EBEFE38339BDD /* XCTest.framework */; };
+		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
+		80C6062B4B79D83B8CD46A65BC9A4717 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60164D864C1A650A920647892E6A51E1 /* Foundation.framework */; };
+		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
+		8934E5DD6478A7C5BA57C307D3A43D95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60164D864C1A650A920647892E6A51E1 /* Foundation.framework */; };
+		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
+		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97B00F963AD0AC705504F3061E926107 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60164D864C1A650A920647892E6A51E1 /* Foundation.framework */; };
+		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
+		9D86D0EC5063E20A7462E2537F4F2A94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60164D864C1A650A920647892E6A51E1 /* Foundation.framework */; };
+		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
+		A8896F1FEB38DA5A8E7061439D90ABA7 /* PYKNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = DED57F54FBE1D0890A7DE1238AAD6D66 /* PYKNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0118DC92B1F6D04637B20200ACEE572 /* Pods-PYKLogining_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0E36DCD099B5B7822AC1FC68370F65 /* Pods-PYKLogining_Tests-dummy.m */; };
+		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60164D864C1A650A920647892E6A51E1 /* Foundation.framework */; };
+		B57D74244263DF3D15D90481F4378778 /* Pods-PYKLogining_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82E6FBED27C6BE098957579B7DC2A142 /* Pods-PYKLogining_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C61231943BEAA111D5E521DDE8BD6341 /* YKLogining.h in Headers */ = {isa = PBXBuildFile; fileRef = C8C134C263877601DFF4CAA829DB19D5 /* YKLogining.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7F3D25E1FD9FFBBAB76AD6893C9BDC /* UIKit.framework */; };
+		E3738D892467A3A567D644632F585A81 /* PYKNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBDDAC40A8C00446155D75DDA1EDBD8 /* PYKNetworking.m */; };
+		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
+		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0735C179B3B79D135D6704063E4B0827 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08859740329023D3D453E5E693564C6B;
+			remoteInfo = "Pods-PYKLogining_Example";
+		};
+		A22149D2AE0B5C1517F7074944A2C880 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		B0371DC76927CE0CE0C1E2923D53FC53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7DEF72C6F77461CDFB4CD1B744CD7D6;
+			remoteInfo = PYKNetworking;
+		};
+		C98B18EF60AE4CBAB6686FEDB60F0AC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7DEF72C6F77461CDFB4CD1B744CD7D6;
+			remoteInfo = PYKNetworking;
+		};
+		E033EA1896ED072E6A57BAB686E11ECF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67825C05D515719453BD2EC8FB9BC767;
+			remoteInfo = PYKLogining;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0041FE44BDA4A96C14073449DA2B3385 /* PYKNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PYKNetworking-dummy.m"; sourceTree = "<group>"; };
+		038D593F9CEA7DE6F85BA22E8A444A89 /* Pods_PYKLogining_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PYKLogining_Tests.framework; path = "Pods-PYKLogining_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		12996F2C35B0AC7198D6FC385EB7BAFC /* Pods-PYKLogining_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PYKLogining_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		12FE4767977C5B1D36473422085504CE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1796631E6634F7A23D2E71DA0EDB6BC9 /* Pods-PYKLogining_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PYKLogining_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		1BA4B5BEBA43F778B57421C3DC60E9FC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		255B27CBF39135B6186EBEFE38339BDD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		2828064A2710D632019C36ECC6D6E4C5 /* Pods-PYKLogining_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PYKLogining_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		324DC8786F48C2638E1FB4B34EAD2016 /* PYKLogining-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PYKLogining-umbrella.h"; sourceTree = "<group>"; };
+		32F76C49208ACBCCFE56FA85073A8A93 /* Pods-PYKLogining_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PYKLogining_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		371DA1183D44B3B504521F148FBC5AF6 /* PYKNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PYKNetworking-Info.plist"; sourceTree = "<group>"; };
+		390C9CCC15B098B3C5FC68ABF653BEA7 /* Pods_PYKLogining_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PYKLogining_Example.framework; path = "Pods-PYKLogining_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		49D57E9383EB747B3173F0B65E58C15F /* Pods-PYKLogining_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PYKLogining_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		4DA9941B9D3E52E41A39131A12A73057 /* PYKLogining.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PYKLogining.modulemap; sourceTree = "<group>"; };
+		5213B6EC2F94A651EF12AFE35358BDC7 /* Pods-PYKLogining_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PYKLogining_Tests-umbrella.h"; sourceTree = "<group>"; };
+		58B854389F13236914303878E504601A /* Pods-PYKLogining_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PYKLogining_Example-Info.plist"; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C95359591A30147D164631B2C36E8A0 /* Pods-PYKLogining_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PYKLogining_Example-dummy.m"; sourceTree = "<group>"; };
+		60164D864C1A650A920647892E6A51E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		61326193720FAB104B8F4350B2F1358B /* PYKNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PYKNetworking.framework; path = PYKNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F1DE1CE3E3EB422FF2D732E3A1EF71 /* PYKNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PYKNetworking-prefix.pch"; sourceTree = "<group>"; };
+		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		6E1532831C949B3DCE889D2448169F21 /* PYKLogining.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PYKLogining.framework; path = PYKLogining.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		716BF43105D3DF1830BEEF9B5BBDE308 /* PYKLogining.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PYKLogining.debug.xcconfig; sourceTree = "<group>"; };
+		7259754122F69185CC2519CC6F6B983C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		81EF02191396CCC8B9EFCDE34DAFC93C /* PYKNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PYKNetworking-umbrella.h"; sourceTree = "<group>"; };
+		82E6FBED27C6BE098957579B7DC2A142 /* Pods-PYKLogining_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PYKLogining_Example-umbrella.h"; sourceTree = "<group>"; };
+		8480770C3ED00E3ABD33E0090969FC26 /* PYKNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PYKNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		8B020CA2EF4E247B670A3B51C7A21723 /* Pods-PYKLogining_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PYKLogining_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		943D56C75441CEB4A345EB62E8BB10C5 /* PYKNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PYKNetworking.release.xcconfig; sourceTree = "<group>"; };
+		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		9B9DF57DF90B707E4CADEB1947248A9D /* Pods-PYKLogining_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PYKLogining_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A34C472B562C10AE097500211D1A71F9 /* YKLogining.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YKLogining.m; path = PYKLogining/Classes/YKLogining.m; sourceTree = "<group>"; };
+		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		AF1C6F0EE9AD4D5DDAAE4BD4701C6555 /* PYKNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PYKNetworking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B6A65D1D994225B1872B31FD479A1F7B /* PYKLogining-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PYKLogining-Info.plist"; sourceTree = "<group>"; };
+		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		B92ACF6E5D33806690D8D6DEF56473D4 /* Pods-PYKLogining_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PYKLogining_Tests.modulemap"; sourceTree = "<group>"; };
+		BE0E36DCD099B5B7822AC1FC68370F65 /* Pods-PYKLogining_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PYKLogining_Tests-dummy.m"; sourceTree = "<group>"; };
+		BFBDDAC40A8C00446155D75DDA1EDBD8 /* PYKNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYKNetworking.m; path = PYKNetworking/Classes/PYKNetworking.m; sourceTree = "<group>"; };
+		C01F527B42E79D7FE3E18C804C4D2ED9 /* PYKLogining.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PYKLogining.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C75E49A8B15645C67CE02A9871A2267B /* Pods-PYKLogining_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PYKLogining_Example.modulemap"; sourceTree = "<group>"; };
+		C8C134C263877601DFF4CAA829DB19D5 /* YKLogining.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YKLogining.h; path = PYKLogining/Classes/YKLogining.h; sourceTree = "<group>"; };
+		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		CD551EF9CAC6C49E5B618A33B8ADAF54 /* PYKLogining-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PYKLogining-prefix.pch"; sourceTree = "<group>"; };
+		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		D103E09B9776676241A9092EFF5AFC71 /* PYKLogining.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PYKLogining.release.xcconfig; sourceTree = "<group>"; };
+		D4B0E201A7A2B93218834CB5BDBD0749 /* Pods-PYKLogining_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PYKLogining_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		D9845DECFEBAE95716EE3F12D8FBD96C /* PYKLogining-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PYKLogining-dummy.m"; sourceTree = "<group>"; };
+		DED57F54FBE1D0890A7DE1238AAD6D66 /* PYKNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYKNetworking.h; path = PYKNetworking/Classes/PYKNetworking.h; sourceTree = "<group>"; };
+		DF3BC51A43DB7B6A531EB10665D86554 /* Pods-PYKLogining_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PYKLogining_Tests-Info.plist"; sourceTree = "<group>"; };
+		E507B122526E0EA37C08FC58F126906C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		E60282792073631C55780492770CBDFD /* PYKNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PYKNetworking.debug.xcconfig; sourceTree = "<group>"; };
+		EFF13FCE5A206C3662B0800DE03694E4 /* Pods-PYKLogining_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PYKLogining_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F0DB086CF520E7A832ACC1DA8BD3BE1B /* PYKNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PYKNetworking.modulemap; sourceTree = "<group>"; };
+		F8E148D82E92BC900ECB8E0198E4BBD7 /* Pods-PYKLogining_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PYKLogining_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FDD91A1136FB26B432D8B2C818E406C1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		FF7F3D25E1FD9FFBBAB76AD6893C9BDC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		537106E4209EE6033B3914808028BCB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97B00F963AD0AC705504F3061E926107 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		688C7D7FFD41047052CF8BAE3CAB2620 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C6062B4B79D83B8CD46A65BC9A4717 /* Foundation.framework in Frameworks */,
+				3FDA29ADEDF2AB92379357D82AB41270 /* PYKNetworking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		763A30AB719A32ACE61D691036CD58D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8934E5DD6478A7C5BA57C307D3A43D95 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1974B6B4663F699C8BD432797FA6489 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D86D0EC5063E20A7462E2537F4F2A94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E581515110D66F94F80A6937831489A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */,
+				14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */,
+				E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */,
+				6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F1D9A354EE1707EDC3BB10C1EE82AA1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1BA4B5BEBA43F778B57421C3DC60E9FC /* LICENSE */,
+				AF1C6F0EE9AD4D5DDAAE4BD4701C6555 /* PYKNetworking.podspec */,
+				12FE4767977C5B1D36473422085504CE /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1337F948FE16887F8257C75E63552105 /* PYKNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				DED57F54FBE1D0890A7DE1238AAD6D66 /* PYKNetworking.h */,
+				BFBDDAC40A8C00446155D75DDA1EDBD8 /* PYKNetworking.m */,
+				0F1D9A354EE1707EDC3BB10C1EE82AA1 /* Pod */,
+				6DED10A1D1A08F835F0453D3D870E07C /* Support Files */,
+			);
+			name = PYKNetworking;
+			path = ../../../PYKNetworking;
+			sourceTree = "<group>";
+		};
+		271D88453D948A9B457B66756B957F91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8480770C3ED00E3ABD33E0090969FC26 /* PYKNetworking.framework */,
+				AAA68A7973F900B9965174FABE7838E3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2ED47F299EC227D5EEF99B25275CF69E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DA9941B9D3E52E41A39131A12A73057 /* PYKLogining.modulemap */,
+				D9845DECFEBAE95716EE3F12D8FBD96C /* PYKLogining-dummy.m */,
+				B6A65D1D994225B1872B31FD479A1F7B /* PYKLogining-Info.plist */,
+				CD551EF9CAC6C49E5B618A33B8ADAF54 /* PYKLogining-prefix.pch */,
+				324DC8786F48C2638E1FB4B34EAD2016 /* PYKLogining-umbrella.h */,
+				716BF43105D3DF1830BEEF9B5BBDE308 /* PYKLogining.debug.xcconfig */,
+				D103E09B9776676241A9092EFF5AFC71 /* PYKLogining.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PYKLogining";
+			sourceTree = "<group>";
+		};
+		30501D99113C06C8A9C50E969E644914 /* Pods-PYKLogining_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B92ACF6E5D33806690D8D6DEF56473D4 /* Pods-PYKLogining_Tests.modulemap */,
+				2828064A2710D632019C36ECC6D6E4C5 /* Pods-PYKLogining_Tests-acknowledgements.markdown */,
+				F8E148D82E92BC900ECB8E0198E4BBD7 /* Pods-PYKLogining_Tests-acknowledgements.plist */,
+				BE0E36DCD099B5B7822AC1FC68370F65 /* Pods-PYKLogining_Tests-dummy.m */,
+				32F76C49208ACBCCFE56FA85073A8A93 /* Pods-PYKLogining_Tests-frameworks.sh */,
+				DF3BC51A43DB7B6A531EB10665D86554 /* Pods-PYKLogining_Tests-Info.plist */,
+				5213B6EC2F94A651EF12AFE35358BDC7 /* Pods-PYKLogining_Tests-umbrella.h */,
+				49D57E9383EB747B3173F0B65E58C15F /* Pods-PYKLogining_Tests.debug.xcconfig */,
+				12996F2C35B0AC7198D6FC385EB7BAFC /* Pods-PYKLogining_Tests.release.xcconfig */,
+			);
+			name = "Pods-PYKLogining_Tests";
+			path = "Target Support Files/Pods-PYKLogining_Tests";
+			sourceTree = "<group>";
+		};
+		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */,
+				277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */,
+				88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */,
+				6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */,
+				AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */,
+				7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */,
+				99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */,
+				0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */,
+				656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */,
+				235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */,
+				96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */,
+				4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */,
+				284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */,
+				D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		5A8EBC4256DA7248896B1071DE138239 /* PYKLogining */ = {
+			isa = PBXGroup;
+			children = (
+				C8C134C263877601DFF4CAA829DB19D5 /* YKLogining.h */,
+				A34C472B562C10AE097500211D1A71F9 /* YKLogining.m */,
+				68F7E5422DC38148A912E98127C6F771 /* Pod */,
+				2ED47F299EC227D5EEF99B25275CF69E /* Support Files */,
+			);
+			name = PYKLogining;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		68F7E5422DC38148A912E98127C6F771 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7259754122F69185CC2519CC6F6B983C /* LICENSE */,
+				C01F527B42E79D7FE3E18C804C4D2ED9 /* PYKLogining.podspec */,
+				FDD91A1136FB26B432D8B2C818E406C1 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6DED10A1D1A08F835F0453D3D870E07C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0DB086CF520E7A832ACC1DA8BD3BE1B /* PYKNetworking.modulemap */,
+				0041FE44BDA4A96C14073449DA2B3385 /* PYKNetworking-dummy.m */,
+				371DA1183D44B3B504521F148FBC5AF6 /* PYKNetworking-Info.plist */,
+				64F1DE1CE3E3EB422FF2D732E3A1EF71 /* PYKNetworking-prefix.pch */,
+				81EF02191396CCC8B9EFCDE34DAFC93C /* PYKNetworking-umbrella.h */,
+				E60282792073631C55780492770CBDFD /* PYKNetworking.debug.xcconfig */,
+				943D56C75441CEB4A345EB62E8BB10C5 /* PYKNetworking.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../PYKLogining/Example/Pods/Target Support Files/PYKNetworking";
+			sourceTree = "<group>";
+		};
+		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		9C2B18F6D27A1CA73E3F6BFCFD0D9158 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8BB46B5A42140436241CA208ACEC73F /* Pods-PYKLogining_Example */,
+				30501D99113C06C8A9C50E969E644914 /* Pods-PYKLogining_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AAA68A7973F900B9965174FABE7838E3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				60164D864C1A650A920647892E6A51E1 /* Foundation.framework */,
+				E507B122526E0EA37C08FC58F126906C /* QuartzCore.framework */,
+				FF7F3D25E1FD9FFBBAB76AD6893C9BDC /* UIKit.framework */,
+				255B27CBF39135B6186EBEFE38339BDD /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		AEC500889C91B0F1404390C3D775C3A5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A8EBC4256DA7248896B1071DE138239 /* PYKLogining */,
+				1337F948FE16887F8257C75E63552105 /* PYKNetworking */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */,
+				1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */,
+				B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */,
+				D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */,
+				8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */,
+				9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */,
+				4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				4BA2479549DD918290454B1CDCD0B92B /* Core */,
+				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
+				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				AEC500889C91B0F1404390C3D775C3A5 /* Development Pods */,
+				271D88453D948A9B457B66756B957F91 /* Frameworks */,
+				E81A37DBDE41E671312C56736544E2FA /* Pods */,
+				F70CA5B6CE6611C341F70276B6674EA7 /* Products */,
+				9C2B18F6D27A1CA73E3F6BFCFD0D9158 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D8BB46B5A42140436241CA208ACEC73F /* Pods-PYKLogining_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C75E49A8B15645C67CE02A9871A2267B /* Pods-PYKLogining_Example.modulemap */,
+				9B9DF57DF90B707E4CADEB1947248A9D /* Pods-PYKLogining_Example-acknowledgements.markdown */,
+				EFF13FCE5A206C3662B0800DE03694E4 /* Pods-PYKLogining_Example-acknowledgements.plist */,
+				5C95359591A30147D164631B2C36E8A0 /* Pods-PYKLogining_Example-dummy.m */,
+				1796631E6634F7A23D2E71DA0EDB6BC9 /* Pods-PYKLogining_Example-frameworks.sh */,
+				58B854389F13236914303878E504601A /* Pods-PYKLogining_Example-Info.plist */,
+				82E6FBED27C6BE098957579B7DC2A142 /* Pods-PYKLogining_Example-umbrella.h */,
+				D4B0E201A7A2B93218834CB5BDBD0749 /* Pods-PYKLogining_Example.debug.xcconfig */,
+				8B020CA2EF4E247B670A3B51C7A21723 /* Pods-PYKLogining_Example.release.xcconfig */,
+			);
+			name = "Pods-PYKLogining_Example";
+			path = "Target Support Files/Pods-PYKLogining_Example";
+			sourceTree = "<group>";
+		};
+		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F70CA5B6CE6611C341F70276B6674EA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				390C9CCC15B098B3C5FC68ABF653BEA7 /* Pods_PYKLogining_Example.framework */,
+				038D593F9CEA7DE6F85BA22E8A444A89 /* Pods_PYKLogining_Tests.framework */,
+				6E1532831C949B3DCE889D2448169F21 /* PYKLogining.framework */,
+				61326193720FAB104B8F4350B2F1358B /* PYKNetworking.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		33932F1E28E8545829A5480E78E54AD0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0598F3FA757549CA9B4FDF5EE57B5E79 /* PYKLogining-umbrella.h in Headers */,
+				C61231943BEAA111D5E521DDE8BD6341 /* YKLogining.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */,
+				C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */,
+				90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */,
+				40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */,
+				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
+				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
+				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70A49D0F6B6F29BEEB1F08C173A2129E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57D74244263DF3D15D90481F4378778 /* Pods-PYKLogining_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88E8549E40CC1A3A53E2C6BB2618930D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58AC3A14CACAC7AC0EB3203C9A9B06ED /* Pods-PYKLogining_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C86129115E1162D3353CA03915407827 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01A329612059542AA466A26BF9E3967A /* PYKNetworking-umbrella.h in Headers */,
+				A8896F1FEB38DA5A8E7061439D90ABA7 /* PYKNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		08859740329023D3D453E5E693564C6B /* Pods-PYKLogining_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06F7DE0F9793A036F4FABEF942ACB383 /* Build configuration list for PBXNativeTarget "Pods-PYKLogining_Example" */;
+			buildPhases = (
+				70A49D0F6B6F29BEEB1F08C173A2129E /* Headers */,
+				CCAF37CDB40AE1B55035059F3BA91FF8 /* Sources */,
+				537106E4209EE6033B3914808028BCB3 /* Frameworks */,
+				1CEADDFD9231A2A3F7885F24F8F719CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADA034A7C1D656794841B8B7E0D87EE9 /* PBXTargetDependency */,
+				AC3C29F1FB1748607CF6DDDE4ACAFDE5 /* PBXTargetDependency */,
+			);
+			name = "Pods-PYKLogining_Example";
+			productName = "Pods-PYKLogining_Example";
+			productReference = 390C9CCC15B098B3C5FC68ABF653BEA7 /* Pods_PYKLogining_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		67825C05D515719453BD2EC8FB9BC767 /* PYKLogining */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00D53F12360664B05A7E35083289D338 /* Build configuration list for PBXNativeTarget "PYKLogining" */;
+			buildPhases = (
+				33932F1E28E8545829A5480E78E54AD0 /* Headers */,
+				C8B851DE62D75C8325D5A91AFE47A6E3 /* Sources */,
+				688C7D7FFD41047052CF8BAE3CAB2620 /* Frameworks */,
+				021FD36635158FF4B3D123F115AF91BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24373624B59A86855034704F75FBE12D /* PBXTargetDependency */,
+			);
+			name = PYKLogining;
+			productName = PYKLogining;
+			productReference = 6E1532831C949B3DCE889D2448169F21 /* PYKLogining.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */,
+				A48201AC594B2E6B09C0EE0396BC1377 /* Sources */,
+				E581515110D66F94F80A6937831489A1 /* Frameworks */,
+				5CC655F1A6C7A45A9693160581076BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A7DEF72C6F77461CDFB4CD1B744CD7D6 /* PYKNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F7FECA04414A4A21236E5A08AF4D359 /* Build configuration list for PBXNativeTarget "PYKNetworking" */;
+			buildPhases = (
+				C86129115E1162D3353CA03915407827 /* Headers */,
+				225ECB931959A1640D136541E83F71D6 /* Sources */,
+				D1974B6B4663F699C8BD432797FA6489 /* Frameworks */,
+				CF60282171EDEC95F60000D47C5A642A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PYKNetworking;
+			productName = PYKNetworking;
+			productReference = 61326193720FAB104B8F4350B2F1358B /* PYKNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B90075CE419B532501F2260607A8FBA1 /* Pods-PYKLogining_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 548992943925FCDE1F93AA1749810724 /* Build configuration list for PBXNativeTarget "Pods-PYKLogining_Tests" */;
+			buildPhases = (
+				88E8549E40CC1A3A53E2C6BB2618930D /* Headers */,
+				13D0D19753235741CE500A1E93D40669 /* Sources */,
+				763A30AB719A32ACE61D691036CD58D7 /* Frameworks */,
+				F81746FEAE282C184BC775512E7EA956 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6721B7B5C0D86BAEBBF78FD42CA88919 /* PBXTargetDependency */,
+				8268BEDF67D70C081797AACB80C5E0C3 /* PBXTargetDependency */,
+			);
+			name = "Pods-PYKLogining_Tests";
+			productName = "Pods-PYKLogining_Tests";
+			productReference = 038D593F9CEA7DE6F85BA22E8A444A89 /* Pods_PYKLogining_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F70CA5B6CE6611C341F70276B6674EA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				08859740329023D3D453E5E693564C6B /* Pods-PYKLogining_Example */,
+				B90075CE419B532501F2260607A8FBA1 /* Pods-PYKLogining_Tests */,
+				67825C05D515719453BD2EC8FB9BC767 /* PYKLogining */,
+				A7DEF72C6F77461CDFB4CD1B744CD7D6 /* PYKNetworking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		021FD36635158FF4B3D123F115AF91BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CEADDFD9231A2A3F7885F24F8F719CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF60282171EDEC95F60000D47C5A642A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81746FEAE282C184BC775512E7EA956 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13D0D19753235741CE500A1E93D40669 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0118DC92B1F6D04637B20200ACEE572 /* Pods-PYKLogining_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		225ECB931959A1640D136541E83F71D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279BCD4F7B01AB869B281A5369012120 /* PYKNetworking-dummy.m in Sources */,
+				E3738D892467A3A567D644632F585A81 /* PYKNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
+				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
+				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
+				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
+				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
+				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
+				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
+				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
+				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8B851DE62D75C8325D5A91AFE47A6E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F6AE1AD34F6603105674F35E28C05C0 /* PYKLogining-dummy.m in Sources */,
+				1058428D7148DABDF4A79CB206A35D68 /* YKLogining.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCAF37CDB40AE1B55035059F3BA91FF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD8821B4FD4F174074305FB765C7CF7 /* Pods-PYKLogining_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24373624B59A86855034704F75FBE12D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PYKNetworking;
+			target = A7DEF72C6F77461CDFB4CD1B744CD7D6 /* PYKNetworking */;
+			targetProxy = B0371DC76927CE0CE0C1E2923D53FC53 /* PBXContainerItemProxy */;
+		};
+		6721B7B5C0D86BAEBBF78FD42CA88919 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = A22149D2AE0B5C1517F7074944A2C880 /* PBXContainerItemProxy */;
+		};
+		8268BEDF67D70C081797AACB80C5E0C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PYKLogining_Example";
+			target = 08859740329023D3D453E5E693564C6B /* Pods-PYKLogining_Example */;
+			targetProxy = 0735C179B3B79D135D6704063E4B0827 /* PBXContainerItemProxy */;
+		};
+		AC3C29F1FB1748607CF6DDDE4ACAFDE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PYKNetworking;
+			target = A7DEF72C6F77461CDFB4CD1B744CD7D6 /* PYKNetworking */;
+			targetProxy = C98B18EF60AE4CBAB6686FEDB60F0AC4 /* PBXContainerItemProxy */;
+		};
+		ADA034A7C1D656794841B8B7E0D87EE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PYKLogining;
+			target = 67825C05D515719453BD2EC8FB9BC767 /* PYKLogining */;
+			targetProxy = E033EA1896ED072E6A57BAB686E11ECF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DCC4DEB6868E38E05E513A62C107F22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 943D56C75441CEB4A345EB62E8BB10C5 /* PYKNetworking.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PYKNetworking/PYKNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PYKNetworking/PYKNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PYKNetworking/PYKNetworking.modulemap";
+				PRODUCT_MODULE_NAME = PYKNetworking;
+				PRODUCT_NAME = PYKNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		441C7939108738A0C7CD37CBADE0B85E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		53227E9DD924077C26156E83707D45D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12996F2C35B0AC7198D6FC385EB7BAFC /* Pods-PYKLogining_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PYKLogining_Tests/Pods-PYKLogining_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PYKLogining_Tests/Pods-PYKLogining_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		57D78766B0C3729C5FF1101CBD9FBA43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B020CA2EF4E247B670A3B51C7A21723 /* Pods-PYKLogining_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PYKLogining_Example/Pods-PYKLogining_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PYKLogining_Example/Pods-PYKLogining_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6009D974851ED1EE9B56EBA9156A06ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4B0E201A7A2B93218834CB5BDBD0749 /* Pods-PYKLogining_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PYKLogining_Example/Pods-PYKLogining_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PYKLogining_Example/Pods-PYKLogining_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6EBCD73607FB73136B87C43E311AAE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49D57E9383EB747B3173F0B65E58C15F /* Pods-PYKLogining_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PYKLogining_Tests/Pods-PYKLogining_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PYKLogining_Tests/Pods-PYKLogining_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DF792B5675818867C95F03EE9A5D3C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A2D3CF6970CEB72DFECAB946FF109789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 716BF43105D3DF1830BEEF9B5BBDE308 /* PYKLogining.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PYKLogining/PYKLogining-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PYKLogining/PYKLogining-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PYKLogining/PYKLogining.modulemap";
+				PRODUCT_MODULE_NAME = PYKLogining;
+				PRODUCT_NAME = PYKLogining;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE874B114A0991701B09229EAAA4CA84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE55861AB8BDFB3786DDE452F83A4836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D3536AE46248D35279880AA9D73FE865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E60282792073631C55780492770CBDFD /* PYKNetworking.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PYKNetworking/PYKNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PYKNetworking/PYKNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PYKNetworking/PYKNetworking.modulemap";
+				PRODUCT_MODULE_NAME = PYKNetworking;
+				PRODUCT_NAME = PYKNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E8744872BB14508E70C28E907FD06BF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D103E09B9776676241A9092EFF5AFC71 /* PYKLogining.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PYKLogining/PYKLogining-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PYKLogining/PYKLogining-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PYKLogining/PYKLogining.modulemap";
+				PRODUCT_MODULE_NAME = PYKLogining;
+				PRODUCT_NAME = PYKLogining;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00D53F12360664B05A7E35083289D338 /* Build configuration list for PBXNativeTarget "PYKLogining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D3CF6970CEB72DFECAB946FF109789 /* Debug */,
+				E8744872BB14508E70C28E907FD06BF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06F7DE0F9793A036F4FABEF942ACB383 /* Build configuration list for PBXNativeTarget "Pods-PYKLogining_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6009D974851ED1EE9B56EBA9156A06ED /* Debug */,
+				57D78766B0C3729C5FF1101CBD9FBA43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DF792B5675818867C95F03EE9A5D3C6 /* Debug */,
+				CE55861AB8BDFB3786DDE452F83A4836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F7FECA04414A4A21236E5A08AF4D359 /* Build configuration list for PBXNativeTarget "PYKNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3536AE46248D35279880AA9D73FE865 /* Debug */,
+				1DCC4DEB6868E38E05E513A62C107F22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		548992943925FCDE1F93AA1749810724 /* Build configuration list for PBXNativeTarget "Pods-PYKLogining_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EBCD73607FB73136B87C43E311AAE9C /* Debug */,
+				53227E9DD924077C26156E83707D45D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				441C7939108738A0C7CD37CBADE0B85E /* Debug */,
+				BE874B114A0991701B09229EAAA4CA84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

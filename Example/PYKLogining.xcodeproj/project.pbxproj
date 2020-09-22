@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		17D1A4AF0388F460D2E3135A /* PYKLogining.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PYKLogining.podspec; path = ../PYKLogining.podspec; sourceTree = "<group>"; };
+		17D1A4AF0388F460D2E3135A /* PYKLogining.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PYKLogining.podspec; path = ../PYKLogining.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3EF5B39AF8536E4E997B30D3 /* Pods-PYKLogining_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYKLogining_Example.release.xcconfig"; path = "Target Support Files/Pods-PYKLogining_Example/Pods-PYKLogining_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4E4A414B0848EFA3905E5A1E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4E4A414B0848EFA3905E5A1E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4EEFA4B731C74842E929A1AF /* Pods-PYKLogining_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYKLogining_Tests.debug.xcconfig"; path = "Target Support Files/Pods-PYKLogining_Tests/Pods-PYKLogining_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		558801F46BAF1BD7C0505134 /* Pods_PYKLogining_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PYKLogining_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* PYKLogining_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PYKLogining_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,7 +65,7 @@
 		815E9845F862964B342A4DF8 /* Pods_PYKLogining_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PYKLogining_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2FC5B059A176A431CE68AD7 /* Pods-PYKLogining_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYKLogining_Example.debug.xcconfig"; path = "Target Support Files/Pods-PYKLogining_Example/Pods-PYKLogining_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F119211ECB96D12BC86DDD43 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F119211ECB96D12BC86DDD43 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F152B0E0DB04A65F7FA8F3BE /* Pods-PYKLogining_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYKLogining_Tests.release.xcconfig"; path = "Target Support Files/Pods-PYKLogining_Tests/Pods-PYKLogining_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				4EEFA4B731C74842E929A1AF /* Pods-PYKLogining_Tests.debug.xcconfig */,
 				F152B0E0DB04A65F7FA8F3BE /* Pods-PYKLogining_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -326,10 +326,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-PYKLogining_Example/Pods-PYKLogining_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/PYKLogining/PYKLogining.framework",
+				"${BUILT_PRODUCTS_DIR}/PYKNetworking/PYKNetworking.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PYKLogining.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PYKNetworking.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

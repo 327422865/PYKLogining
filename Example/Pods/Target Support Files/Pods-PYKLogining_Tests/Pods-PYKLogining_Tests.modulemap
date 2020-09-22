@@ -1,0 +1,6 @@
+framework module Pods_PYKLogining_Tests {
+  umbrella header "Pods-PYKLogining_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
